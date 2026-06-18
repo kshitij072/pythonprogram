@@ -1,0 +1,10 @@
+print("enter rectangle length")
+L=int(input())
+print("enter rectangle breadth")
+B=int(input())
+print("length=",L)
+print("breadth=",B)
+ar=L*B
+pr=2*(L+B)
+print("perimeter=",pr)
+print("area=",ar)

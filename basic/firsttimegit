@@ -1,0 +1,49 @@
+warning: You appear to have cloned an empty repository.
+
+C:\Users\HP\Desktop\gitfolder>cd pythonprogram
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>cd..
+
+C:\Users\HP\Desktop\gitfolder>cd..
+
+C:\Users\HP\Desktop>cd gitfolder
+
+C:\Users\HP\Desktop\gitfolder>cd pythonprogram
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>git add .
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>git commit -m "day0"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP@Kshitij.(none)')
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>  git config --global user.email "e124cosmo@gmail.com"
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>  git config --global user.name "kshitij mohapatra"
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>git commit -m "day0"
+[main (root-commit) 94e8b92] day0
+ 1 file changed, 1 insertion(+)
+ create mode 100644 basic/demo.py
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 262 bytes | 37.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kshitij072/pythonprogram.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\HP\Desktop\gitfolder\pythonprogram>
