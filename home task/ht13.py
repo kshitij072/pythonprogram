@@ -1,0 +1,8 @@
+print("enter employee name")
+name=str(input())
+print("enter employee salary")
+sal=int(input())
+print("enter employee age")
+age=int(input())
+print("enter employee gender")
+gen=str(input())
