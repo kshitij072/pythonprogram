@@ -5,7 +5,5 @@ T=int(input())
 print("enter rate")
 R=int(input())
 si=P*R*T/100
-print("principal value=",P)
-print("time=",T)
-print("rate=",R)
+
 print("interest=",si)
