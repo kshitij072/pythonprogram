@@ -1,0 +1,8 @@
+print("A".isupper())
+print("AP".isupper())
+print("Ab".isupper())
+print("b".islower())
+print("B".islower())
+print(" ".isspace())
+print("r m".isspace())
+print("Ram Das".istitle())
